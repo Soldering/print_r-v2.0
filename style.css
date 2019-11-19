@@ -1,0 +1,55 @@
+pre.p
+{
+    font-size: 13px;
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,.15);
+    border-radius: 2px;
+    line-height: 20px;
+    background-color: #fbf9f5;
+    padding: 3px;
+    overflow: hidden;
+}
+pre.p .label
+{
+    color: #555555;
+}
+pre.p .folder
+{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    padding-left: 0px;
+    text-align: center;
+    line-height: 15px;
+    vertical-align: middle;
+    border: solid 1px #0055cc;
+    color: gray;
+    cursor: pointer;
+    border-radius: 2px;
+}
+pre.p .array,
+pre.p .object {
+    display: none;
+    padding: 0 0 0 30px;
+}
+pre.p .placeholder {
+    border: solid 1px #ddd;
+    font-size: 11px;
+    padding: 0 3px;
+    border-radius: 3px;
+    background-color: #fbf5f2;
+    color: gray;
+}
+pre.p .resource {
+    color: #ff8000;
+}
+pre.p .null,
+pre.p .boolean {
+    color: #00f;
+}
+pre.p .integer,
+pre.p .float {
+    color: #008000;
+}
+pre.p .string {
+    color: #0080af;
+}
